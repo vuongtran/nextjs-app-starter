@@ -1,6 +1,9 @@
+
+![banner](https://github.com/vuongtran/nextjs-app-starter/assets/2321710/a38d5877-2054-4fa4-b3cf-ce8fdf248acd)
+<br />
 <div align="center"><strong>Next.js app starter ☕</strong></div>
 <div align="center">
-  <sub>An app starter for Next.js that includes TypeScript, ChakraUI and all the tools you need to build amazing projects 🔥🤗.</sub>
+  <sub>An app starter for Nextjs that includes TypeScript, ChakraUI and all the tools you need to build amazing projects 🔥🤗.</sub>
 </div>
 <br />
 
@@ -35,6 +38,14 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - `npm run lint` — Runs ESLint for all files in the directory.
 - `npm run lint:fix` — Runs ESLint and fix for all files in the directory.
 - `npm run format` — Runs Prettier for all files in the directory.
+
+## Say thanks!
+
+- Photo by <a href="https://unsplash.com/@dburka?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Daniel Burka</a> on <a href="https://unsplash.com/photos/person-on-top-of-rock-formation-inside-cave-facU72FcKBI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Banner tool <a href="https://liyasthomas.github.io/banner/">🪴</a>
+- Favicon symbol <a href="https://www.svgrepo.com/svg/96855/command-symbol">🪴</a>
+- Favicon converter <a href="https://favicon.io/favicon-converter/">🪴</a>
+- Emoji <a href="https://emojihub.org/">🪴</a>
 
 ## License
 
