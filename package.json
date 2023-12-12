@@ -14,10 +14,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "test": "vitest",
+    "test:coverage": "vitest run --coverage",
     "lint": "next lint",
     "lint:fix": "eslint --ignore-path .gitignore --fix && npm run format",
     "format": "prettier --ignore-path .gitignore --write .",
-    "postbuild": "next-sitemap --config next-sitemap.config.js"
+    "postbuild": "next-sitemap --config next-sitemap.config.js",
+    "commit": "cz"
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.1.1",
@@ -33,13 +36,36 @@
   },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.1.1",
+    "@testing-library/react": "^14.1.2",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "@vitest/coverage-v8": "^1.0.4",
+    "commitizen": "^4.3.0",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8",
     "eslint-config-next": "14.0.3",
+    "husky": "^8.0.3",
+    "jsdom": "^23.0.1",
+    "lint-staged": "^15.2.0",
     "next-sitemap": "^4.2.3",
     "prettier": "^3.1.0",
-    "typescript": "^5"
+    "pretty-quick": "^3.1.3",
+    "typescript": "^5",
+    "vitest": "^1.0.4"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "npm run test"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint --fix",
+      "git add"
+    ]
   }
 }
