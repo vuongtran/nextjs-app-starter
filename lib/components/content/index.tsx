@@ -4,6 +4,7 @@ import {
   Box,
   Button,
   Container,
+  Link,
   Stack,
   Text,
   useColorModeValue,
@@ -29,14 +30,16 @@ export default function Content() {
           An app starter for Next.js that includes TypeScript, ChakraUI and all
           the tools you need to build amazing projects 🔥🤗
         </Text>
-        <Button
-          size={"lg"}
-          aria-label="Github"
-          leftIcon={<LuGithub />}
-          variant="solid"
-        >
-          Github
-        </Button>
+        <Link href="https://github.com/vuongtran/nextjs-app-starter" isExternal>
+          <Button
+            size={"lg"}
+            aria-label="Github"
+            leftIcon={<LuGithub />}
+            variant="solid"
+          >
+            Github
+          </Button>
+        </Link>
       </Container>
     </Box>
   )
