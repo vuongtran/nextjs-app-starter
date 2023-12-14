@@ -6,8 +6,17 @@
   <sub>An app starter for Nextjs that includes TypeScript, ChakraUI and all the tools you need to build amazing projects 🔥🤗.</sub>
 </div>
 <br />
+<div align="center">
 
+![Alt](https://repobeats.axiom.co/api/embed/bd665f83ccbe2ba526d0cfc18bea36fe4839bdf2.svg "Repobeats analytics image")
+
+</div>
+  
+<div align="center">
+  
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+</div>
 
 ## Features
 
